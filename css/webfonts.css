@@ -1,0 +1,163 @@
+@font-face {
+  font-family: NotoSans_100;
+  src: local(NotoSansKR-Thin),
+    url(/Noto_Sans_KR/NotoSansKR-Thin.otf) format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans_300;
+  src: local(NotoSansKR-Light),
+    url(/Noto_Sans_KR/NotoSansKR-Light.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans_400;
+  src: local(NotoSansKR-Regular),
+    url(/Noto_Sans_KR/NotoSansKR-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans_500;
+  src: local(NotoSansKR-Medium),
+    url(/Noto_Sans_KR/NotoSansKR-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans_700;
+  src: local(NotoSansKR-Bold),
+    url(/Noto_Sans_KR/NotoSansKR-Bold.otf) format("opentype");
+  font-weight:700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans_900;
+  src: local(NotoSansKR-Black),
+    url(/Noto_Sans_KR/NotoSansKR-Black.otf) format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+
+
+@font-face {
+  font-family: Lato_100;
+  src: local(Lato-Thin),
+    url(/Lato/Lato-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style:normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_100Italic;
+  src: local(Lato-ThinItalic),
+    url(/Lato/Lato-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+  font-style:italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_300;
+  src: local(Lato-Light),
+    url(/Lato/Lato-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style:normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_300Italic;
+  src: local(Lato-LightItalic),
+    url(/Lato/Lato-LightItalic.ttf) format("truetype");
+  font-weight: 300;
+  font-style:italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_400;
+  src: local(Lato-Regular),
+    url(/Lato/Lato-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style:normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_400Italic;
+  src: local(Lato-Italic),
+    url(/Lato/Lato-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style:italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_700;
+  src: local(Lato-Bold),
+    url(/Lato/Lato-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style:normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_700Italic;
+  src: local(Lato-BoldItalic),
+    url(/Lato/Lato-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style:italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_900;
+  src: local(Lato-Black),
+    url(/Lato/Lato-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style:normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Lato_900Italic;
+  src: local(Lato-BlackItalic),
+    url(/Lato/Lato-BlackItalic.ttf) format("truetype");
+  font-weight: 900;
+  font-style:italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: Apple_400;
+  src: local(AppleSDGothicNeo-Regular),
+    url(/AppleSDGothicNeo/AppleSDGothicNeoM.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Apple_700;
+  src: local(AppleSDGothicNeo-Bold),
+    url(/AppleSDGothicNeo/AppleSDGothicNeoB.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}

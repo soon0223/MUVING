@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUVING</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+
+    <div id="main" class="mu_main">
+        <nav id="skip">
+            <a href="#main_section">메인 바로가기</a>
+            <a href="#sub_section01">뮤빙에만 있는 재미 바로가기</a>
+            <a href="#sub_section02">내가 찾던 공연 바로가기</a>
+            <a href="#sub_section03">홍보 영상 바로가기</a>
+            <a href="#sub_section04">공연장 추천 바로가기</a>
+            <a href="#sub_section05">MUVING 시작하기 바로가기</a>
+            <a href="#sub_section06">자주 찾는 질문바로가기</a>
+            <a href="#mu_footer">푸터 바로가기</a>
+        </nav>
+        <header id="mu_hd" class="bg_change">
+            <div class="mu_hd_wrap">
+                <h2 class="mu_logo">
+                    <a href=""><img src="img/logo.png" alt="MUVING"></a>
+                </h2>
+                <div class="search_box ">
+                    <input type="text" placeholder="Type to search..." />
+                    <div class="search_btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cancel_btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="mu_container" class="mu_container">
+            <section id="main_section" class="main_section">
+                <h2>메인 비주얼</h2>
+                <div class="mu_main_visual">
+                    <ul class="main_wrapper">
+                        <li class="main_slid slide1">
+                            <img src="img/main_1-1.jpg" alt="메인슬라이드_엑스칼리버">
+                            <div class="bnt_block">
+                                <a href="https://ticket.melon.com/performance/index.htm?prodId=206031" target="_blank"
+                                    class="btn_red"><button>예매하기</button></a>
+                                <a href="#content_popup01" class="btn_gray"><button>상세보기</button></a>
+                            </div>
+                        </li>
+
+                        <li class="main_slid slide2">
+                            <img src="img/main_2-1.jpg" alt="메인슬라이드_드라큘라">
+                            <div class="bnt_block">
+                                <a href="https://tickets.interpark.com/goods/21002720" target="_blank"
+                                    class="btn_red"><button>예매하기</button></a>
+                                <a href="#content_popup02" class="btn_gray"><button>상세보기</button></a>
+                            </div>
+                        </li>
+
+                        <li class="main_slid slide3">
+                            <img src="img/main_3-4.jpg" alt="메인슬라이드_데스노트">
+                            <div class="bnt_block">
+                                <a href="https://tickets.interpark.com/goods/22000970" target="_blank"
+                                    class="btn_red"><button>예매하기</button></a>
+                                <a href="#content_popup03" class="btn_gray"><button>상세보기</button></a>
+                            </div>
+
+                        </li>
+                        <li class="main_slid slide4">
+                            <img src="img/main_4-1.jpg" alt="메인슬라이드_엘리자벳">
+                            <div class="bnt_block">
+                                <a href="https://tickets.interpark.com/goods/18012338" target="_blank"
+                                    class="btn_red"><button>예매하기</button></a>
+                                <a href="#content_popup04" class="btn_gray"><button>상세보기</button></a>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <button class="mu_slid_prev"></button>
+                    <button class="mu_slid_next"></button>
+                    <div class="mu_pagination"></div>
+                </div>
+
+                <div id="content_popup01" class="layer_popup_wrap">
+                    <div class="layer_popup">
+                        <button type="button" class="ico_popup_close popup_close">닫기</button>
+                        <div class="popup_content">
+                            <img src="img/content_popup01.jpg" alt="엑스칼리버 상세정보 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div id="content_popup02" class="layer_popup_wrap">
+                    <div class="layer_popup">
+                        <button type="button" class="ico_popup_close popup_close">닫기</button>
+                        <div class="popup_content">
+                            <img src="img/content_popup02.jpg" alt="드라큘라 상세정보 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div id="content_popup03" class="layer_popup_wrap">
+                    <div class="layer_popup">
+                        <button type="button" class="ico_popup_close popup_close">닫기</button>
+                        <div class="popup_content">
+                            <img src="img/content_popup03.jpg" alt="데스노트 상세정보 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div id="content_popup04" class="layer_popup_wrap">
+                    <div class="layer_popup">
+                        <button type="button" class="ico_popup_close popup_close">닫기</button>
+                        <div class="popup_content">
+                            <img src="img/content_popup04.jpg" alt="엘리자벳 상세정보 이미지">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="sub_section01" class="sub_section2">
+                <div class="text_area stagger_wrapper" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="30">
+                    <h2 class="stagger_item">뮤빙에만 있는 재미</h2>
+                    <span class="sub_text1 stagger_item">오늘 당신을 기다리고 있는 공연</span>
+                    <span class="sub_text2 stagger_item">뮤빙에서 만나보세요!</span>
+                </div>
+                <ul class="sec2_contents_wrap">
+                    <li><a href="https://tickets.interpark.com/goods/22001534" target="_blank"><img src="img/sub_section_1.jpg" alt="뮤지컬 아이다"></a></li>
+                    <li><a href="https://tickets.interpark.com/goods/21007693" target="_blank"><img src="img/sub_section_2.jpg" alt="뮤지컬 지킬앤하이드"></a></li>
+                    <li><a href="https://tickets.interpark.com/goods/19015386" target="_blank"><img src="img/sub_section_3.jpg" alt="뮤지컬 오페라의 유령"></a></li>
+                    <li><a href="https://tickets.interpark.com/goods/22000970" target="_blank"><img src="img/sub_section_4.jpg" alt="뮤지컬 데스노트"></a></li>
+                    <li><a href="https://tickets.interpark.com/goods/21010169" target="_blank"><img src="img/sub_section_5.jpg" alt="뮤지컬 팬레터"></a></li>
+                </ul>
+            </section>
+
+            <section id="sub_section02" class="sub_section3">
+                <div class="text_area stagger_wrapper" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="30">
+                    <h2 class="stagger_item">내가 찾던 공연</h2>
+                    <span class="sub_text1 stagger_item">보고싶은 공연을 발견하세요!</span>
+                    <span class="sub_text2 stagger_item">개막 예정, 라이선스, 내한, 창작</span>
+                </div>
+                <div class="slider_wrap roller" id="slider_wrap">
+                    <ul class="sub3_slider_container1">
+                        <li><a href="https://tickets.interpark.com/goods/22001534" target="_blank"><img src="img/sub_section_1.jpg" alt="뮤지컬 아이다"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/21007693" target="_blank"><img src="img/sub_section_2.jpg" alt="뮤지컬 지킬앤하이드"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/19015386" target="_blank"><img src="img/sub_section_3.jpg" alt="뮤지컬 오페라의 유령"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/22000970" target="_blank"><img src="img/sub_section_4.jpg" alt="뮤지컬 데스노트"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/21010169" target="_blank"><img src="img/sub_section_5.jpg" alt="뮤지컬 팬레터"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/18012338" target="_blank"><img src="img/sub_section_6.png" alt="뮤지컬 엘리자벳"></a></li>
+                    </ul>
+                </div>
+                <div class="slider_wrap wrap2 roller" id="slider_wrap2">
+                    <ul class="sub3_slider_container2">
+                        <li><a href="https://tickets.interpark.com/goods/22003199" target="_blank"><img src="img/sub_section_7.gif" alt="뮤지컬 나진스키"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/22000934" target="_blank"><img src="img/sub_section_8.gif" alt="뮤지컬 웨스턴 스토리"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/22002766" target="_blank"><img src="img/sub_section_9.gif" alt="뮤지컬 광주"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/21011476" target="_blank"><img src="img/sub_section_10.gif" alt="뮤지컬 썸씽로튼"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/22000156" target="_blank"><img src="img/sub_section_11.gif" alt="뮤지컬 M"></a></li>
+                        <li><a href="https://tickets.interpark.com/goods/22002313" target="_blank"><img src="img/sub_section_12.gif" alt="뮤지컬 PIP - 위대한 유산"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="sub_section03" class="sub_section4">
+                <div class="mu_table">
+                    <div class="mu_table_cell">
+                        <div class="mu_yt_wrap">
+                            <h2>유튜브 홍보 동영상</h2>
+                            <div data-video-id="mPxFLpdw-44" class="video_box video_box_player_1">
+                                <div id="player_1"></div>
+                            </div>
+                            <div class="yt_list">
+                                <button type="button">뮤지컬 데스노트 MV_놈의 마음 속으로</button>
+                                <button type="button">뮤지컬 데스노트 MV_Death Note</button>
+                                <button type="button">뮤지컬 데스노트 MV_The Game Begins</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub4_title text_area stagger_wrapper" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="30">
+                    <h2 class="stagger_item">집으로 온 공연</h2>
+                    <span class="sub_text1 stagger_item" >다양한 기기로 즐겨보세요!</span>
+                    <span class="sub_text2 stagger_item">스마트폰, 태블릿, PC, TV, 크롬캐스트에서 시청!</span>
+                    <span class="sub_text2 stagger_item">최대 4명의 지인들과 함께 구독</span>
+                </div>
+                <video autoplay muted loop playsinline class="mu_video">
+                    <source src="img/sub4_section.mp4" type="video/mp4"> 해당 브라우저는 video 태그를 지원하지 않습니다.
+                </video>
+            </section>
+
+            <section id="sub_section04" class="sub_section5">
+                <div class="text_area stagger_wrapper" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="30">
+                    <h2 class="stagger_item">공연장 추천</h2>
+                    <span class="sub_text1 stagger_item">가까운 공연장의 BEST 기획 공연을 발견하세요!</span>
+                </div>
+                <div class="map_wrap" data-aos="fade-up" data-aos-duration="1800" data-aos-offset="30">
+                    <!-- 카카오맵 api 들어가는 영역 -->
+                    <div id="map"></div>
+                    <div id="menu_wrap" class="bg_white">
+                        <div class="option">
+                            <div>
+                                <form onsubmit="searchPlaces(); false;">
+                                    <input type="text" value="서울 공연장" id="keyword" size="15">
+                                    <button type="submit">검색하기</button>
+                                </form>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul id="placesList"></ul>
+                        <div id="pagination"></div>
+                    </div>
+                </div>
+                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b16e8796c52dff9ac912ae86d638d163&libraries=services"></script>
+            </section>
+
+            <section id="sub_section05" class="sub_section6" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="30">
+                <div class="mu_start">
+                    <img src="img/logo2.png" alt="뮤빙 아이콘">
+                    <h2>지금 시작해보세요</h2>
+                    <button type="button" class="join_more"><span>MUVING</span> 시작하기</button>
+                </div>
+            </section>
+
+            <section id="sub_section06" class="sub_section7" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="30">
+                <h2>자주 찾는 질문</h2>
+                <div class="faq_wrap wrap">
+                    <dl class="faq_dl">
+                        <dt class="faq_dt faq_dt1">
+                            <label for="faq_radio1" class="faq_label">MUVING은 무엇인가요?</label>
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                        </dt>
+                        <dd class="faq_dd1">
+                            MUVING은 공연 소개, 공연 예매, LIVE 실황 공연 콘텐츠를 모두 즐길 수 있는 곳입니다. <br>
+                            최신 공개작부터 시대를 초월한 명작과 라이선스 공연에 이르기까지 다양하고 풍성한 공연 컨텐츠 들을 만나실 수 있습니다.
+                        </dd>
+                        <dt class="faq_dt faq_dt2">
+                            <label for="faq_radio2" class="faq_label">MUVING 회원가입 방법이 궁금해요.</label>
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                        </dt>
+                        <dd class="faq_dd2">
+                            <p>
+                                MUVING은 아래와 같은 방법으로 로그인이 가능합니다. <br>
+                                1) MUVING WEB/APP 접속 <br>
+                                2) 'MUVING 시작하기' 버튼 클릭 <br>
+                                3) 계정 선택화면에서 회원가입하신 계정 유형 선택 <br>
+                                4) 아이디, 비밀번호 입력 후 '로그인하기' 버튼 클릭 <br>
+                                <br>
+                                혹시 일치하는 회원정보가 없다는 알림 메시지가 나오신다면 아래 사항을 확인하여 주세요. <br>
+                                ■ MUVING 로그인 안될 시 조치 방법<br>
+                                1) WEB 브라우저 또는 APP 좌측 상단의 '뒤로가기'를 클릭하여 계정 유형 선택 화면으로 이동 <br>
+                                2) 회원가입한 유형을 다시 확인하여 선택 <br>
+                                - MUVING ID로 가입하신 경우 'MUVING ID로 시작하기' 선택 <br>
+                                - 네이버, 카카오 등 SNS 연동 계정으로 가입하신 경우 '각 SNS로 시작하기' 선택 <br>
+                                3) 아이디, 비밀번호 입력 후 '로그인하기' 버튼 클릭하여 로그인 <br>
+                                <br>
+                                * 아이디가 이메일 형태의 계정인데 'MUVING ID'로 로그인이 안되시는 경우 SNS 연동 회원일 수 있으며, 네이버, 카카오 등 '각 SNS로
+                                시작하기'를 선택하여 확인을 부탁드립니다. <br>
+                                * 계정 유형을 맞게 선택하신 경우 '아이디 찾기', '비밀번호 찾기'를 진행해 주세요. <br>
+                                <br>
+                                지속해서 로그인이 되지 않으시는 경우 1:1 게시판 문의 또는 dear_bliss@naver.com 으로 문의해 주시면,<br>
+                                신속하게 가입하신 계정 확인하여 답변드리겠습니다.
+                            </p>
+                        </dd>
+                        <dt class="faq_dt faq_dt3">
+                            <label for="faq_radio3" class="faq_label">MUVING 이용권 별 혜택이 궁금해요.</label>
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                        </dt>
+                        <dd class="faq_dd3">
+                            <p>
+                                MUVING 이용권은 베이직, 스탠다드, 오리지널, 프리미엄 이용권으로 구성이 되어 있습니다. <br>
+                                <br>
+                                ※ 뮤빙 이용권<br>
+                                1) 베이직 이용권 <br>
+                                - 공연 선예매 + 티켓 포장 + MUVING DAY + 실황 프로그램 720p HD 화질 이용 가능 (모바일 + PC) <br>
+                                - 동시 시청 1명 <br>
+                                <br>
+                                2) 스탠다드 이용권 <br>
+                                - 공연 선예매 + 예매 할인쿠폰 + 티켓 포장 + MUVING DA + 실황 프로그램 1080p FHD 화질 이용 가능 (모든 디바이스) <br>
+                                - 동시 시청 2명 <br>
+                                <br>
+                                3) 오리지널 이용권 <br>
+                                - 공연 선예매 + 예매 할인쿠폰 + 티켓 포장 + MUVING DAY + Live-Care Service + 실황 프로그램 1080p FHD(모든 디바이스)
+                                + 4K 화질(스마트TV 일부 콘텐츠 한정) 이용 가능 <br>
+                                - 동시 시청 3명 <br>
+                                <br>
+                                4) 프리미엄 이용권 <br>
+                                - 공연 선예매 + 예매 할인쿠폰 + 티켓 포장 + MUVING DAY + Live-Care Service + VIP석 2매 + Welcome Kit +
+                                VIP Room + 실황 프로그램 1080p FHD(모든 디바이스) + 4K 화질(스마트TV 일부 콘텐츠 한정) 이용 가능 <br>
+                                - 동시 시청 4명
+                            </p>
+                        </dd>
+                        <dt class="faq_dt faq_dt4">
+                            <label for="faq_radio4" class="faq_label">MUVING 이용권 가격이 궁금해요.</label>
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                        </dt>
+                        <dd class="faq_dd4">
+                            <p>
+                                MUVING 이용권은 연간 회원권으로 결제 후 1년동안 이용 가능하십니다. <br>
+                                베이직, 스탠다드, 오리지널, 프리미엄 이용권으로 구성이 되어 있습니다. <br>
+                                <br>
+                                1) 베이직 이용권 <br>
+                                - 10,000원 <br>
+                                <br>
+                                2) 스탠다드 이용권 <br>
+                                - 20,000원 <br>
+                                <br>
+                                3) 오리지널 이용권 <br>
+                                - 30,000원 <br>
+                                <br>
+                                4) 프리미엄 이용권 <br>
+                                - 500,000원
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+            </section>
+        </main>
+        <footer id="mu_footer" class="mu_footer">
+            <h2>하단정보</h2>
+            <div class="mu_ft_nav_wrap ">
+                <div class="ft_info">
+                    <h2>하단 메뉴</h2>
+                    <ul class="ft_nav">
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li class="bd"><a href="#">개인정보 처리 방침</a></li>
+                        <li><a href="#">청소년보호정책</a></li>
+                        <li><a href="#">법적고지</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mu_ft_ionfo_wrap ">
+                <h2>기관 정보 및 저작권</h2>
+                <dl class="ft_info_menu">
+                    <dt>대표이사</dt>
+                    <dd>SOON</dd>
+                    <dt class="blind">사업자정보확인</dt>
+                    <dd>사업자정보확인</dd>
+                    <dt>사업자등록번호</dt>
+                    <dd>186-12-15223</dd>
+                    <dt>통신판매신고번호</dt>
+                    <dd>2022-서울강남-3641호</dd>
+                    <dt>비디오물배급업 신고번호</dt>
+                    <dd>제2016-16호</dd>
+                    <dt>호스팅서비스 사업자</dt>
+                    <dd>SOON</dd>
+                    <dt>E-MAIL</dt>
+                    <dd>dear_bliss@naver.com</dd>
+                    <dt class="blind">저작권</dt>
+                    <dd class="bd">MUVING의 콘텐츠는 서비스 여부에 따라 달라질 수 있습니다.</dd>
+                </dl>
+                <div class="copyright">
+                    &copy; 2022 MUVING All Rights Reserved.<br>
+                    <span class="bd">이 사이트는 포트폴리오용으로 제작되었으며 사용한 이미지는 각 원본 출처에 저작권이 있습니다.</span>
+                </div>
+            </div>
+            <div class="ft_logos">
+                <a href="#" class=" wa"><img src="img/logo2.png" alt="NO.1 K공연 플랫폼 MUVING"></a>
+            </div>
+        </footer>
+        <aside class="floating_btn">
+            <button class="gototop">위로가기</button>
+        </aside>
+    </div>
+    <script src="js/ui.common.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/youtube.js"></script>
+</body>
+
+</html>

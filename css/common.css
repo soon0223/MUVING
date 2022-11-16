@@ -1,0 +1,89 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&Black+Han+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+/* 공통 클래스 */
+.wrap { width: 1720px; margin: auto;}
+.wrap2 { width: 1220px; margin: auto;}
+.clearfix::after {content: ''; display: block; clear: both;}
+.blind {position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; white-space: nowrap; overflow: hidden; clip: rect(0,0,0,0); }
+.center {text-align: center;}
+.table {display: table;}
+.table_cell {display: table-cell; vertical-align: middle;}
+.parent {position: relative;}
+.ltsp {letter-spacing: -1px;}
+.bd0 {border: 0 !important;}
+.btn {border: 0; background-color: transparent; cursor: pointer;}
+body {color: #fff; background-color: #000;}
+
+
+/* 스킵버튼 */
+#skip>a {display: block; position: fixed; left: 0; top: -100px; width: 100%; line-height: 48px;background-color: #e12626; color: #fff; text-align: center; z-index: 9999;}
+#skip>a:focus {top: 0;}
+
+
+/* INPUT */
+input[type="checkbox"]{display:none}
+input[type="checkbox"] + label span { display:inline-block; width:24px; height:24px; vertical-align:middle; background: url('../images/icon-scrap-white@2x.png') no-repeat center /cover;}
+
+
+/* button */
+.btn_red {display: block;  margin-right: 35px;line-height: 1.5; text-align: center; }
+.btn_red button {width: 150px; height: 60px; background-color: #e12626; border-radius: 5px; color: #fff; font-weight: 700; font-size: 20px;}
+.btn_gray {display: block;  width: 150px; height: 60px;line-height: 1.5; text-align: center; }
+.btn_gray button {width: 150px; height: 60px; padding: 15px 0; line-height: 1.5; text-align: center; background-color: #8b8989; border-radius: 5px;  color: #fff; font-weight: 700; font-size: 20px;}
+
+
+/********** HEADER **********/
+#mu_hd {position: absolute; width: 100%; height: 90px; margin: 0 auto; background-color: transparent; border-bottom: 1px solid rgba(139, 137, 137, 0.5); z-index: 100;}
+#mu_hd.fixed {position: fixed;}
+#mu_hd.bg_change {background-color: #000; border-bottom: 1px solid rgba(139, 137, 137, 0.5); color: #231f20;}
+#mu_hd .mu_hd_wrap {display: flex; position: relative; justify-content: space-between; width: 1720px; height: 90px; margin: auto;  padding: 30px 0;}
+#mu_hd .mu_hd_wrap .mu_logo {width: 128px; height: 30px;}
+#mu_hd .mu_hd_wrap .mu_logo a {display: block;}
+#mu_hd .mu_hd_wrap .mu_logo a img {width: 100%; height: 100%;}
+
+#mu_hd .mu_hd_wrap .search_box {position: absolute; right: 5%; top: 25px; height: 60px; width: 0px; transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);}
+#mu_hd .mu_hd_wrap .search_box.active { width: 250px;}
+#mu_hd .mu_hd_wrap .search_box.active input { opacity: 1;}
+#mu_hd .mu_hd_wrap .search_box input { width: 100%; height: 40px; padding: 0 60px 0 20px; border: none; background: rgba(255,255,255,0.25);  font-size: 14px; border-radius: 40px; color: #fff; outline: none; opacity: 0; transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);}
+#mu_hd .mu_hd_wrap .search_box .search_btn { position: absolute; top: 0; right: -60px; height: 40px; width: 40px; line-height: 40px; text-align: center; border-radius: 50%; font-size: 20px; cursor: pointer; color: #e12626; background: rgba(255,255,255,0.25); transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); z-index: 2;}
+#mu_hd .mu_hd_wrap .search_box i{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+#mu_hd .mu_hd_wrap .search_box.active .search_btn {top: 0; height: 40px; width: 40px; background: #e12626; color: #fff;}
+#mu_hd .mu_hd_wrap .search_box .cancel_btn {position: absolute; top: 0; right: -50px; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; font-size: 25px; cursor: pointer; color: #e12626; opacity:0;}
+#mu_hd .mu_hd_wrap .search_box.active .cancel_btn { right: -120px; top: 0; opacity: 1; color: #fff; transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);}
+
+
+/* *****footer**** */
+#mu_footer {position: relative; width: 1720px; margin: auto;}
+#mu_footer h2 {font-size: 0;}
+#mu_footer {position: relative;}
+#mu_footer .mu_ft_nav_wrap {border-top: 1px solid rgb(119, 119, 119,0.5)}
+#mu_footer .mu_ft_nav_wrap .ft_info {line-height: 1;}
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav {display: flex;}
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav li {display: flex; padding: 30px 0;}
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav li:after {margin: 0 15px; content: ''; display: block;  width: 1px; height: 20px; background-color: #fff; opacity: 0.4;}
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav li:last-child:after, .ft_info_menu > dd:last-of-type:after, .ft_info_menu > dd:nth-of-type(2):after {display: none;} 
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav li a {font-size: 18px; font-weight: 700; color: #fff;}
+#mu_footer .mu_ft_nav_wrap .ft_info .ft_nav li:first-child a {color:#e12626;}
+
+#mu_footer .mu_ft_ionfo_wrap { width: 1720px; margin: 0 auto 80px;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu::after {content: ''; display: block; clear: both;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dt, 
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dd {float: left; margin: 0; font-weight: 300;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dd::after {display: inline-block; content: ''; width: 1px; height: 12px; margin: 0 15px; background-color: #fff; opacity: 0.4;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dt:after {content: ':'; padding: 0 8px;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dt:nth-of-type(5) {clear: left;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dd:nth-of-type(8) {font-weight: 700;}
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dd:nth-of-type(4):after,
+#mu_footer .mu_ft_ionfo_wrap .ft_info_menu dd:nth-of-type(8):after {content: none;}
+#mu_footer .mu_ft_ionfo_wrap .copyright {width: 100%; margin: 30px auto 0;}
+#mu_footer .mu_ft_ionfo_wrap .copyright .bd {font-weight: 700;}
+
+#mu_footer .ft_logos {position: absolute; right: 0; top: 60px; width: 240px; height: 83px;}
+#mu_footer .ft_logos a {display: block;}
+#mu_footer .ft_logos a img {width: 240px; height: 83px;}
+
+.floating_btn {display: none; position: fixed; right: 24px; bottom: 24px; width: 50px; height: 50px; transform: rotate(90deg); z-index: 999; cursor: pointer;}
+.floating_btn button {width: 50px; height: 50px; border: 1px solid #bbb; border-radius: 25px; background: url('../img/arrow_prev.png') no-repeat center / 50px; font-size: 0; }
